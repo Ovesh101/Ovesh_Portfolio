@@ -26,6 +26,8 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
   
 
   return (
@@ -46,7 +48,7 @@ const Navbar = () => {
         }}
         >
           <img src={logowhite} alt="logo" className='w-9 h-9' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'> Ovesh <span className='sm:block '>| Full Stack Developer</span></p>
+          <p className='text-white sm:text-[5px] md:text-[18px] font-bold cursor-pointer'> Ovesh <span className='sm:block '>| Full Stack Developer</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
@@ -75,11 +77,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-center items-center'>
           <img
             src={!toggle ? close : menu}
             alt='menu'
-            className='w-[40px] h-[40px] object-contain'
+            className='w-[50px] h-[50px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
 
@@ -99,6 +101,7 @@ const Navbar = () => {
                     setToggle(!toggle);
                     setActive(nav.title);
                   }}
+               
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
