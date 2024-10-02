@@ -8,7 +8,7 @@ import { github, instagram, twitter, linkedin } from '../assets'
 
 const footer = () => {
   return (
-    <div className='flex items-center -mt-[52px] h-[103px] overflow-hidden justify-center'>
+    <div className='flex  items-center -mt-[52px] h-[103px] overflow-hidden justify-center'>
         <motion.div variants={
             fadeIn('right', "",0.2,1 )
         } 
@@ -25,7 +25,7 @@ const footer = () => {
                 src={github}
                 alt="github"
                 className="w-8 h-8 object-contain"
-                onClick={() => window.open("https://github.com/Ved-panchal/","_blank")}      
+                onClick={() => window.open("https://github.com/Ovesh101/","_blank")}      
               />
               </div>
               <div
@@ -58,7 +58,7 @@ const footer = () => {
                 src={linkedin}
                 alt="github"
                 className="w-8 h-8 object-cover"      
-                onClick={() => window.open("https://www.linkedin.com/in/ved-panchal-6564a3212","_blank")}
+                onClick={() => window.open("https://www.linkedin.com/in/ovesh-mulla/","_blank")}
               />
             </div>
           </div>
