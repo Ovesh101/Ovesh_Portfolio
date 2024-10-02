@@ -34,7 +34,7 @@ const ProjctCard = ({ index, name, description, tags, image, source_code_link,li
               <img 
                 src={github}
                 alt="github"
-                className="w-11 h-11 object-cover"      
+                className="w-11 h-11 object-contain"      
               />
             </div>
             <div onClick={() => window.open(live_code_link,"_blank")}
@@ -44,7 +44,7 @@ const ProjctCard = ({ index, name, description, tags, image, source_code_link,li
               <img 
                 src={view}
                 alt="github"
-                className="w-10 h-10 object-cover"      
+                className="w-10 h-10 object-contain"      
               />
             </div>
           </div>

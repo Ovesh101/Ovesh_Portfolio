@@ -73,6 +73,7 @@ export {
   linkedin,
   instagram,
   logowhite,
+  reactjs,
   logo,
   backend,
   creator,
@@ -94,7 +95,7 @@ export {
   javascript,
   hardhat,
   nodejs,
-  reactjs,
+  
   redux,
   tailwind,
   web3,
