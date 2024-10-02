@@ -4,6 +4,9 @@ import {
     blockchain,
     developer,
     javascript,
+    Jobify,
+    Prompt,
+    Video,
     html,
     css,
     reactjs,
@@ -34,6 +37,10 @@ import {
     // IBM,
     IBM1,
     STTL,
+    Fronted_Devoloper,
+    Backend_Devoloper,
+    
+    
     // IBM2,
   } from "../assets";
   
@@ -58,21 +65,21 @@ import {
   
   const services = [
     {
-      title: "Web3 Developer",
-      icon: developer,
+      title: "Fronted Developer",
+      icon: Fronted_Devoloper,
     },
     {
-      title: "Smart Contract Developer",
-      icon: ethereum,
+      title: "Backend Developer",
+      icon: Backend_Devoloper,
     },
-    {
-      title: "Blockchain Software Developer",
-      icon: blockchain,
-    },
-    {
-      title: "Facebook ADS",
-      icon: ADS,
-    },
+    // {
+    //   title: "Blockchain Software Developer",
+    //   icon: blockchain,
+    // },
+    // {
+    //   title: "Facebook ADS",
+    //   icon: ADS,
+    // },
   ];
   
   const technologies = [
@@ -105,26 +112,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "ethers",
-      icon: ethers,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "web3js",
-      icon: web3,
-    },
-    {
-      name: "truffle",
-      icon: truffle,
-    },
-    {
-      name: "hardhat",
-      icon: hardhat,
-    },
-    {
       name: "Git",
       icon: git,
     },
@@ -132,55 +119,17 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Avalanche Hackathon",
-      company_name: "Avalanche Hackathon",
-      icon: avalanche,
-      iconBg: "#383E56",
-      date: "August 2022 - September 2022",
-      points: [
-        "Successfully delivered a cutting-edge DEFI project as our final submission in the prestigious Avalanche Hackathon.",
-        "Actively engaged in high-value networking calls, sought-after mentoring sessions, and knowledge-rich workshops throughout the hackathon.",
-        "Seamlessly integrated and harnessed the power of Quick Node technology to elevate the functionality and performance of our project on the Avalanche network.",
-        "Capitalized on the hackathon to learn, connect, and establish a strong blockchain presence.",
-      ],
-    },
-    {
-      title: "Azadi Ka Amrit Mahotsav Hackathon",
-      company_name: "Azadi Ka Amrit Mahotsav Hackathon",
-      icon: AKAM,
-      iconBg: "#E6DEDD",
-      date: "September 2022 - October 2022",
-      points: [
-        "Crafted a captivating metaverse for the Gujarat museum in the Azadi Ka Amrit Mahotsav Hackathon, showcasing the state's heritage.",
-        "Developed the metaverse within the intense 36-hour timeframe, demonstrating our ability to deliver under pressure.",
-        "Acquired valuable experience and expertise in Unity, Blender graphics, Oculus Quest 2, and C# by exploring these cutting-edge technologies.",
-        "Explored new frontiers in virtual reality, creating an immersive and visually stunning experience for the museum's visitors.",
-      ],
-    },
-    {
-      title: "IBM FrontEnd Internship",
-      company_name: "IBM",
-      icon: IBM1,
-      iconBg: "#383E56",
-      date: "July 2023 - September 2023",
-      points: [
-        "Award-winning team from IBM Frontend Internship, showcasing excellence in problem-solving and innovation.",
-        "Developed a real-life solution addressing pertinent challenges, highlighting technical prowess and creativity.",
-        "Invited to IBM CSRBox Event in Delhi, recognizing impactful contributions to technology and society.",
-        "Leveraged IBM Frontend Internship to cultivate invaluable skills, driving meaningful impact through collaborative problem-solving and project development.",
-      ],
-    },
+
     
     {
       title: "Internship",
       company_name: "Silver Touch Pvt Ltd",
       icon: STTL,
       iconBg: "white",
-      date: "Jan 2024 - Present",
+      date: "Jan 2024 - Augest 2024",
       points: [
         "Secured position as Software Trainee at Silver Touch through Campus Placement, commencing January 2024.",
-        "Acquired comprehensive understanding of company fundamentals, client management, and full-stack system development.",
+        " Enhanced Sandesh News website frontend with Next.js 14, achieving a 40% performance improvement and optimizing component reusability through server-side rendering",
         "Strengthened proficiency in MSSQL, honed object-oriented programming skills, and gained insight into ERP and SAP systems.",
         "Demonstrated problem-solving capabilities through solving Data Structures and Algorithms questions, enhancing versatility and readiness for professional challenges.",
       ],
@@ -216,9 +165,9 @@ import {
   
   const projects = [
     {
-      name: "ToDo App",
+      name: "Jobify",
       description:
-        "Upgrade your task management with the user-friendly React Todo app, leveraging the power of Redux for added features. Stay organized and boost productivity with its easy-to-use interface, efficient state management, and seamless task organization capabilities.",
+        "Developed Jobify, a job tracking application using React 18 for the front end, and Node.js/Express.js for the backend.Implemented form validation with Express Validator, cookie-based token authentication",
       tags: [
         {
           name: "react",
@@ -229,43 +178,55 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "motion",
+          name: "nodeJs",
           color: "pink-text-gradient",
         },
+        {
+          name: "expressJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
       ],
-      image: todo,
-      source_code_link: "https://github.com/Ved-panchal/Ved-Todo-React",
-      live_code_link: "https://my-todo-c4993.web.app/",
+      image: Jobify,
+      source_code_link: "https://github.com/Ovesh101/Jobify",
+      live_code_link: "https://jobify-app-v2g8.onrender.com/",
     },
     {
-      name: "Chat App",
+      name: "Prompt Generator App",
       description:
-        "This project utilizes Node.js and ChatEngine.io for real-time communication, while React.js with pre-built Chat UI components creates a user-friendly frontend. It supports  messaging, file sharing, group chats, and DMs for a comprehensive chat experience.",
+        "Built Promptopia, a web app with Next.js 14, React, and Tailwind CSS, focusing on responsive design.Integrated ChatGPT’s API to automate prompt generation, allowing users to view, use, and copy prompts,enhancing interaction",
       tags: [
         {
-          name: "react",
+          name: "nextJs 14",
           color: "blue-text-gradient",
         },
         {
-          name: "node",
+          name: "tailwindCss",
           color: "green-text-gradient",
         },
         {
           name: "restapi",
           color: "pink-text-gradient",
         },
+        {
+          name: "chatgptApi",
+          color: "green-text-gradient",
+        },
       ],
-      image: Chatapp,
-      source_code_link: "https://github.com/Ved-panchal/Chat-App",
-      live_code_link: "https://chat-app-dc789.web.app/",
+      image: Prompt,
+      source_code_link: "https://github.com/Ovesh101/Promptopia_Next",
+      live_code_link: "https://promptopia-next-beta.vercel.app/",
     },
     {
-      name: "NFT Dapp",
+      name: "Huddle",
       description:
-        "A NFT project which can be used to add NFTs, Mint NFTs, Buy NFTs.Developed using React, Solidity, and Tailwind, it provides a user-friendly platform for effortless NFT creation. This project serves as a deployed test model on the Goerli testnet for testing its functionality before its release.",
+        "Developed a video conferencing application with React and Stream API, incorporating real-time video, screen sharing, and chat functionalities. Integrated Clerk Auth for secure user authentication and enhanced real-time communication features to improve user experience",
       tags: [
         {
-          name: "react",
+          name: "nextJs14",
           color: "blue-text-gradient",
         },
         {
@@ -273,31 +234,39 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "solidity",
+          name: "Clerk Auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "StreamApi",
           color: "pink-text-gradient",
         },
-      ],
-      image: nft,
-      source_code_link: "https://github.com/Ved-panchal/NFT-app",
-      live_code_link: "https://nft-dpp.web.app/",
-    },
-    {
-      name: "Order Your Snacks",
-      description:
-        "A NFT project which can be used to add NFTs, Mint NFTs, Buy NFTs.Developed using React, Solidity, and Tailwind, it provides a user-friendly platform for effortless NFT creation. This project serves as a deployed test model on the Goerli testnet for testing its functionality before its release.",
-      tags: [
         {
-          name: "next",
+          name: "typescript",
           color: "blue-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
       ],
-      image: oys,
-      source_code_link: "https://github.com/AdityaShinde03/Order-Your-Snacks",
-      live_code_link: "https://order-your-snacks.vercel.app/",
+      image: Video,
+      source_code_link: "https://github.com/Ovesh101/Huddle",
+      live_code_link: "https://huddle-livid.vercel.app/",
     },
+    // {
+    //   name: "Order Your Snacks",
+    //   description:
+    //     "A NFT project which can be used to add NFTs, Mint NFTs, Buy NFTs.Developed using React, Solidity, and Tailwind, it provides a user-friendly platform for effortless NFT creation. This project serves as a deployed test model on the Goerli testnet for testing its functionality before its release.",
+    //   tags: [
+    //     {
+    //       name: "next",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: oys,
+    //   source_code_link: "https://github.com/AdityaShinde03/Order-Your-Snacks",
+    //   live_code_link: "https://order-your-snacks.vercel.app/",
+    // },
   ];
   export { services, technologies, experiences, testimonials, projects };

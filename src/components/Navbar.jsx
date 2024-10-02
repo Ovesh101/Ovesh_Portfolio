@@ -46,7 +46,7 @@ const Navbar = () => {
         }}
         >
           <img src={logowhite} alt="logo" className='w-9 h-9' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'> Ved <span className='sm:block '>| Web3 Developer</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer'> Ovesh <span className='sm:block '>| Full Stack Developer</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
@@ -60,7 +60,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick ={() => {
                 if(Link.title == "Download CV") {
-                  window.open("https://drive.google.com/file/d/1AQZysy35cgjhrk8te8K1Iat9MT18xL2M/view?usp=sharing","_blank")
+                  window.open("https://drive.google.com/file/d/1Gk7f82gPQv9g9jIICjbmZ2_FdbHnu2NH/view?usp=drive_link","_blank")
                 }
                   else{
                       setActive(Link.title);
@@ -79,7 +79,7 @@ const Navbar = () => {
           <img
             src={!toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[40px] h-[40px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
 

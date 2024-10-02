@@ -9,7 +9,7 @@ const Tech = () => {
       gap-10 "> 
     {
       technologies.map((technology) => (
-        <div className="w-28 h-28"
+        <div className="w-25 h-28"
           key={technology.name}
         >
           <BallCanvas icon={technology.icon}/>

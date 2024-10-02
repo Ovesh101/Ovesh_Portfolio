@@ -35,16 +35,16 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_t6n0cza',
-      'template_mymi8y8',
+      'service_r252skd',
+      'template_4dqcrje',
       {
         from_name: form.name,
-        to_name: "Ved",
+        to_name: "Ovesh",
         from_email: form.email,
-        to_email: "vedpanchal99@gmail.com",
+        to_email: "oveshmulla1124@gmail.com",
         message: form.message,
       },
-      '6elnobv9HxcIXW9IB'
+      'xL4T5LVtTUjV6Depj'
       )
       .then(()=> {
         setLoading(false);

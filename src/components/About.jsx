@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -25,7 +25,7 @@ const ServiceCard = ({ index, title, icon }) => {
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex
           justify-evenly items-center flex-col "
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className="w-30 h-30 object-contain" />
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -46,13 +46,32 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Experienced Web 3 developer passionate about building decentralized
-        applications
-        <br className="sm:block hidden" /> using Solidity, JavaScript, Python,
-        and Rust. Led innovative teams, collaborated with stakeholders, and
-        pushed boundaries in blockchain technology. Committed to
-        <br className="sm:block hidden" /> continuous learning and creating
-        transformative decentralized solutions.
+        "I am a self-taught frontend and backend developer with a passion for
+        building projects from scratch. Through various personal and
+        collaborative projects, I’ve honed my skills in creating flexible and
+        efficient solutions.
+        <div></div>
+        <br className="sm:block hidden" /> My approach focuses on clarity,
+        creativity, and a collaborative mindset to deliver exceptional user
+        experiences."
+        <div></div>
+        <br className="sm:block hidden" /> I am currently looking for a new role
+        as a Developer. <strong>Hire me?</strong>
+        <div class="services">
+          <p>I can help you out with:</p>
+          <ul class="service-list">
+            <li>
+              <strong>React.js Development</strong>
+            </li>
+            <li>
+              <strong>Next.js Development</strong>
+            </li>
+            <li>
+              <strong>Node.js Development</strong>
+            </li>
+            <li>and more...</li>
+          </ul>
+        </div>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

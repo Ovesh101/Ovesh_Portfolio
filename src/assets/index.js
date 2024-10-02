@@ -7,6 +7,8 @@ import ethereum from "./ethereum.png";
 import ADS from "./ADS.png";
 import developer from "./developer.png";
 import blockchain from "./blockchain.png";
+import Fronted_Devoloper from "./fronted_devoloper.webp"
+import Backend_Devoloper from "./Backend_Devoloper.webp"
 import web from "./web.png";
 import github from "./github.png";
 import view from "./view.png";
@@ -54,6 +56,9 @@ import Chatapp from "./Chatapp1.png"
 import shreya from "./testimonial/Shreya.jpg"
 import smit from "./testimonial/smit.png"
 import utsav from "./testimonial/utsav.jpg"
+import Jobify from "./Jobify.png"
+import Prompt from "./prompt.png"
+import Video from "./video.png"
 
 // Social
 import instagram from "./social/instagram.png"
@@ -62,6 +67,9 @@ import linkedin from "./social/linkedin.png"
 
 export {
   twitter,
+  Jobify,
+  Prompt,
+  Video,
   linkedin,
   instagram,
   logowhite,
@@ -72,6 +80,7 @@ export {
   web,
   git,
   ms,
+  Fronted_Devoloper,
   github,
   view,
   menu,
@@ -79,6 +88,7 @@ export {
   css,
   avalanche,
   ethers,
+  Backend_Devoloper,
   truffle,
   html,
   javascript,
