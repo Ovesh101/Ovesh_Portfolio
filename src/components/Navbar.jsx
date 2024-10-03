@@ -62,7 +62,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick ={() => {
                 if(Link.title == "Download CV") {
-                  window.open("https://drive.google.com/file/d/1Gk7f82gPQv9g9jIICjbmZ2_FdbHnu2NH/view?usp=drive_link","_blank")
+                  window.open("https://drive.google.com/file/d/1I0AJ1IKFbFL8xGAuFPT9XLnuOKAhpo2V/view?usp=drive_link","_blank")
                 }
                   else{
                       setActive(Link.title);
