@@ -36,7 +36,7 @@ const footer = () => {
                 src={instagram}
                 alt="github"
                 className="w-8 h-8 object-contain" 
-                onClick={() => window.open("https://www.instagram.com/ved_panchal__111/","_blank")}     
+                onClick={() => window.open("https://www.instagram.com/ov_esh/","_blank")}     
               />
               </div>
               <div
@@ -47,7 +47,7 @@ const footer = () => {
                 src={twitter}
                 alt="github"
                 className=" w-8 h-8 object-cover"      
-                onClick={() => window.open("https://twitter.com/VedPanchal28/","_blank")}
+                onClick={() => window.open("https://x.com/Ove_sh123","_blank")}
               />
               </div>
               <div

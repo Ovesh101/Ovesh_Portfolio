@@ -139,27 +139,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Ved is a top-notch blockchain developer with React proficiency and a solid grasp of Web 3 technologies. His meticulous approach and seamless integration of interfaces with blockchain infrastructure make them a valuable asset in the field.",
-      name: "Utsav Pandya",
-      designation: "Student",
-      company: "GEC Modasa",
+        "I had the pleasure of working with Ovesh on building the frontend of an application, and I was thoroughly impressed with his work. Despite not having a pre-existing design, he took the initiative to create a fully responsive and aesthetically pleasing interface within just four days. His communication throughout the project was excellent, and his technical expertise and problem-solving skills truly stood out. Ovesh’s ability to deliver high-quality work under tight deadlines made the entire experience seamless and enjoyable.",
+      name: "Sarvesh Gupta",
+      designation: "Employee",
+      company: "Roima Intelligence India",
       image: utsav,
-    },
-    {
-      testimonial:
-        "Working with VED was a pleasure. His technical expertise, communication skills, and problem-solving abilities make him an invaluable Web3 developer. I highly recommend him and look forward to future collaborations.",
-      name: "Smit Patel",
-      designation: "Student",
-      company: "GEC Modasa",
-      image: smit,
-    },
-    {
-      testimonial:
-        "Ved combines deep Web 3 expertise in Solidity, JavaScript, and React with hands-on experience in decentralized platforms, making them a valuable asset for creating innovative decentralized applications.",
-      name: "Shreya Patel",
-      designation: "Student",
-      company: "GEC Modasa",
-      image: shreya,
     },
   ];
   

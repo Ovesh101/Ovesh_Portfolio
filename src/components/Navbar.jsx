@@ -48,7 +48,7 @@ const Navbar = () => {
         }}
         >
           <img src={logowhite} alt="logo" className='w-9 h-9' />
-          <p className='text-white sm:text-[5px] md:text-[18px] font-bold cursor-pointer'> Ovesh <span className='sm:block '>| Full Stack Developer</span></p>
+          <p className='text-white sm:text-[5px] md:text-[18px] font-bold cursor-pointer'> Ovesh <span className='sm:block '>| Developer</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (
