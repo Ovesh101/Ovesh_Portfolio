@@ -175,8 +175,8 @@ import {
         },
       ],
       image: Jobify,
-      source_code_link: "https://github.com/Ovesh101/Jobify",
-      live_code_link: "https://jobify-app-v2g8.onrender.com/",
+      source_code_link: "https://github.com/Ovesh101/Jobify-Main",
+      live_code_link: "https://jobify-main.onrender.com",
     },
     {
       name: "Prompt Generator App",
